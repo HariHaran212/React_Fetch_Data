@@ -1,20 +1,12 @@
 import React from 'react'
-import Row from './Row'
-import Heading from './Heading'
+import Table from './Table'
 
 const Content = ({content}) => {
   return (
     <table className='table table-light'>
-      <thead>
-          <Heading 
-            content={content}
-          />
-      </thead>
-      <tbody>
-        {content.map((data) => 
-            <Row key={data.id} data={data} />
-        )}
-      </tbody>
+      <Table 
+        content={content}
+      />
     </table>
   )
 }
