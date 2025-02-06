@@ -1,0 +1,21 @@
+.tab{
+  background-color: rgb(241, 241, 241);
+  transition: 0.5s ease all;
+}
+.tab:hover,
+.tab:active{
+  background-color: rgb(215, 215, 215);
+  transform: scale(1.02);
+}
+.bg-aqua:hover,
+.bg-aqua:active{
+  background-color: rgb(230, 230, 230);
+}
+.hidden{
+  height: 0;
+  width: 0;
+  display: none;
+}
+.active{
+  background-color: rgb(215, 215, 215);
+}
