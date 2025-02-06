@@ -7,7 +7,7 @@ const Content = ({content}) => {
     <table className='table table-light'>
       <thead>
           <Heading 
-          content={content}
+            content={content}
           />
       </thead>
       <tbody>
