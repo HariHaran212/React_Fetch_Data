@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://HariHaran212.github.io/React_Fetch_Data",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
