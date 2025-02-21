@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Tab = ({tab, changeTab, setCurrTab}) => {
+const Tab = ({tab, setCurrTab}) => {
   return (
     <div 
         className={`col p-2 bg-aqua rounded m-1 tab `+(tab.active ? 'active' : '')}

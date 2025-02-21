@@ -8,7 +8,6 @@ const Tabs = ({tabs, changeTab, setCurrTab}) => {
           <Tab
               key={tab.id}
               tab = {tab}
-              changeTab={changeTab}
               setCurrTab={setCurrTab}
           />
       )}

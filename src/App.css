@@ -4,6 +4,7 @@
 }
 .tab:hover,
 .tab:active{
+  cursor: pointer;
   background-color: rgb(215, 215, 215);
   transform: scale(1.02);
 }

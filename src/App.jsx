@@ -73,7 +73,6 @@ function App() {
     <main>
       <Tabs 
         tabs={tabs}
-        changeTab={changeTab}
         setCurrTab={setCurrTab}
       />
       <Content
