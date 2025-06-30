@@ -3,8 +3,8 @@ import 'bootstrap/dist/js/bootstrap.bundle.min'
 import './App.css'
 
 import { useState, useEffect } from 'react'
-import Tabs from './Tabs.jsx'
-import Content from './Content.jsx';
+import Tabs from './components/Tabs.jsx'
+import Content from './components/Content.jsx';
 
 function App() {
   const API_URL = 'https://jsonplaceholder.typicode.com/'
